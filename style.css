@@ -1,0 +1,21 @@
+body {
+    background-color:violet; /*cor de fundo*/
+    color: blue;/*cor da fonte*/
+}
+
+
+h1 {
+text-align: center;/*alinha no centro o titulo(texto)*/
+color: brown;/*cor da fonte*/
+border: 20px solid green;/*1°valor espessura 2° tipo da linha 3° cor*/ 
+background-color: aqua;/*cor de fundo da borda*/
+}
+
+img {
+    width: 50%;/* largura em procentagem*/
+    border-radius: 50px;/*raio das bordas utilizado para arredondar*/
+}
+
+button {
+border-radius: 8px;
+}

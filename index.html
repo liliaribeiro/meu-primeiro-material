@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tags e Mídias</title>
+</head>
+<body>   
+<!--Esta tag adiciona um imagem-->
+<img src="./img/sddefault.jpg" alt="Foto do meu carro - Camarro Amarelo">
+
+<h1>Video clip da Eliana Ribeiro Como és Lindo</h1>
+<!--essa tag cria um player de video com diversos controle-->
+<video controls width="600" height="300" id="video">
+    <source src="./midias/como-es-lindo.mp4" type="video/mp4">
+</video>
+
+<br>
+<h1>Aqui é o Play do vídeo</h1>
+<button onclick="document.getElementById('video').play()">Play</button>
+<button onclick="document.getElementById('video').pause()">Pausar</button>
+<br>
+
+<!--Esta tag cria um player de aúdio-->
+<audio controls id="play">
+    <source src="./midias/o-nenor-da-casa-sou-eu.mp3" type="audio/mpeg">
+</audio>
+
+<br>
+<button onclick="document.getElementById('play').play()">Play</button>
+<button onclick="document.getElementById('play').pause()">Pausar</button>
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hWadAXfH6Uc?si=WP-k_VsDE9nUMIUh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
